@@ -1,0 +1,10 @@
+Task : Task is to detect semantic difference. The goal of task is to predict whether a word is a discriminative attribute between two other words. For example, given the words apple and banana, is the word red a discriminative attribute?  
+
+Semantic difference is a ternary relation between two concepts (apple, banana) and a discriminative feature (red) that characterizes the first concept but not the other.
+Its a binary classification task.
+
+Semeval 2018 dataset is used 
+
+discrim_naive.py contains two methods to solve this. The first uses a fully connected....
+
+
